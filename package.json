@@ -2,6 +2,9 @@
   "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=0.12"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
@@ -41,11 +44,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    {
-      "engines": {
-        "node": ">=0.12"
-      }
-    }
+    ]
   }
 }
